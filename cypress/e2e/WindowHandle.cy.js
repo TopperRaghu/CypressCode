@@ -10,7 +10,7 @@ describe('Handling Child Windows', () => {
        {
         cy.get("#navbarSupportedContent a[href*='about']").click();
         cy.get(".mt-50 h2").should('contain','QAClick Academy');
-        cy.log('Done')
+        
        })
     });
 });

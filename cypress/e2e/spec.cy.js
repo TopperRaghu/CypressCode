@@ -6,7 +6,8 @@ describe('template spec', () => {
     cy.get('.container .col-sm-3 ul li').contains('Delivery Information').click({force:true})
     cy.url().then(($url)=>{
       const url=$url.split('/')[5];
-      cy.log(url);
+      cy.log(url).should('have.text','information&information_id=6');
+      
     })
   })
 })
