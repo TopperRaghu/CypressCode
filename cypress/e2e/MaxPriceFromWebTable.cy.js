@@ -20,7 +20,8 @@ describe('Finding max price', () => {
         cy.get('div.totalAmount').then(($el) => {
             const collectedPrice = parseInt($el.text().split(':')[1].trim());
             cy.log(collectedPrice);
-            expect(collectedPrice).to.equals(TotalPrice)
+            expect(collectedPrice).to.equals(TotalPrice);
+            cy.screenshot();
         })
     })
 
