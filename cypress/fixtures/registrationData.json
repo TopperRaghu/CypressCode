@@ -1,0 +1,9 @@
+{
+  "Firstname": "Raghav",
+  "Lastname" : "Pathak",
+  "email": "helloRaghav@cypress.io",
+  "Phone": "8987985334",
+  "Password":"raghu@567898**",
+  "ConfirmationMssg" : "Your Account Has Been Created",
+  "productName": ["MacBook","Apple Cinema 30","Canon EOS 5D"]
+}

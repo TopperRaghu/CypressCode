@@ -16,7 +16,7 @@ describe('Read data from table', () => {
                     // Read data from the cell and log it
                     const cellData = cells.eq(j).text();
                     cy.log('Row ' + (i + 1) + ', Column ' + (j + 1) + ': ' + cellData);
-
+                    
                 }
             }
         });
