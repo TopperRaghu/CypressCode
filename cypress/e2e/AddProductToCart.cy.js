@@ -8,9 +8,9 @@ describe('Adding product to cart', () => {
         })
     })
 
-    it.skip('Add To Cart Test', function () {
-        cy.visit('https://naveenautomationlabs.com/opencart/')
-
+    it('Add To Cart Test', function () {
+        
+        cy.visit(Cypress.env('url1')+"/opencart/");
         this.productData.productName.forEach(function(NameOfProduct){
 
             cy.get('div.caption h4').each(($el, index, $list) => {
