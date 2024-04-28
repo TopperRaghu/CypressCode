@@ -11,7 +11,7 @@ describe('Login test ', () => {
 
     it('Login test',function(){
         const loginPage=new LoginPage();
-        cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/login');
+        cy.visit(Cypress.env('url1')+"/opencart/index.php?route=account/login");
         loginPage.doLogin(this.data.UserName,this.data.Passcode);
         loginPage.clickOnLoginBttn()
     });
