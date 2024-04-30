@@ -4,9 +4,9 @@ module.exports = defineConfig({
 
   defaultCommandTimeout: 6000,
   env: {
-    url:"https://google.com",
+   url:"https://rahulshettyacademy.com",
     url1:"https://naveenautomationlabs.com",
-    logoutUrl:"https://facebook.com"
+    logoutUrl:"https://naveenautomationlabs.com/opencart/index.php?route=account/logout"
   },
   e2e: {
     setupNodeEvents(on, config) {
