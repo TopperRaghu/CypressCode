@@ -8,4 +8,6 @@ console.log('reversed:', reversed);
 
 // Careful: reverse is destructive -- it changes the original array.
 console.log('array1:', array1);
+console.log('array2:', array1);
+console.log('array3:', array1);
 // Expected output: "array1:" Array ["three", "two", "one"]
